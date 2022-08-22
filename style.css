@@ -1,0 +1,13 @@
+/* Utilities Part */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Start Banner Styles */
+.banner-container {
+    background-color: #000000;
+}
+#banner-heading-text {
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-size: 54px;
+}
