@@ -13,21 +13,24 @@ document.getElementById('player-price-calculate').addEventListener('click', func
     }
 
     //get player list length
-    const playerListElement = document.getElementById('list-container');
-    const playerCount = playerListElement.childNodes.length - 1;
+    const playerListElement = document.getElementById('list-container').children.length;
     
     //get players price
-    const totalPlayerPrice = playerAmount * playerCount;
+    const totalPlayerPrice = playerAmount * playerListElement;
     //set total player price property
     const playersTotalElement = document.getElementById('players-total-expenses');
     const playersTotalString = playersTotalElement.innerText;
     const playersExpenses = parseFloat(playersTotalString);
     playersTotalElement.innerText = totalPlayerPrice;
 
-    
-    
-    
+   
 })
+
+if(playerListElement > 5){
+    alert('abc');
+    return;
+}
+
 
 
 document.getElementById('calculate-total').addEventListener('click', function(){
