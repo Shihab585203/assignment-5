@@ -62,10 +62,9 @@ document.getElementById('player-nine-select').addEventListener('click', function
     setPlayerTextValue(selectPlayerString);
 })
 
-//select Button
+//Disable select Button
 function disable(selectBtn){
     selectBtn.disabled = true;
-}
-
+} 
 
 
