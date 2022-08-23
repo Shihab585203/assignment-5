@@ -1,6 +1,12 @@
 /* Utilities Part */
+
 body{
+    background-color: #151515 !important;
     font-family: 'Poppins', sans-serif;
+}
+button.btn-select:disabled {
+    background-color: #A2A9AF;
+    border: 1px solid #A2A9AF;
 }
 /* Start Banner Styles */
 .banner-container {
@@ -9,5 +15,16 @@ body{
 #banner-heading-text {
     font-family: 'Lobster Two', cursive;
     font-style: italic;
-    font-size: 54px;
+    font-size: 50px;
 }
+/* End Banner Styles */
+
+/* Start Player Stats Styles */
+.card-text {
+    background-color: #000000;
+}
+
+.selected-players-card {
+    background-color: #000000;
+}
+/* End Player Stats Styles */
