@@ -26,11 +26,6 @@ document.getElementById('player-price-calculate').addEventListener('click', func
    
 })
 
-if(playerListElement > 5){
-    alert('abc');
-    return;
-}
-
 
 
 document.getElementById('calculate-total').addEventListener('click', function(){
